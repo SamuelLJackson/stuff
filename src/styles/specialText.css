@@ -1,0 +1,61 @@
+.found-text {
+    margin-top: 15px;
+    margin-left: 22px;
+    font-weight: bold;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    color: var(--primary-color-main);
+    padding: 8px;
+    padding-left: 12px;
+    width: 200px;
+}
+
+.forecast-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.showing-items-text {
+    font-weight: bold;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    color: var(--primary-color-main);
+    padding: 6px;
+    width: 240px;
+    height: 36px;
+    margin-bottom: 10px;
+}
+
+.clickable-blue-text {
+  cursor: pointer;
+  color: var(--button-color-main);
+  text-decoration: underline;
+}
+
+.order-series-input-text {
+  width: 400px;
+  height: 39px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.order-series-parameter-name {
+  width: 170px;
+  height: 38px;
+  border: 1px black solid;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 0px;
+  font-size: 0.85em;
+}
+
+.state-checkbox-row {
+  display: flex;
+  margin: 8px;
+  margin-left: 8px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="57" failures="0" time="14.056">
+  <testsuite name="Create container" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:00" time="4.721" tests="1">
+    <testcase classname="Create container should render self and subcomponents" name="Create container should render self and subcomponents" time="0.205">
+    </testcase>
+  </testsuite>
+  <testsuite name="Create container" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:00" time="4.882" tests="1">
+    <testcase classname="Create container should render self and subcomponents" name="Create container should render self and subcomponents" time="0.341">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:05" time="1.396" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.077">
+    </testcase>
+  </testsuite>
+  <testsuite name="Home container" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:05" time="1.565" tests="1">
+    <testcase classname="Home container should render self and subcomponents" name="Home container should render self and subcomponents" time="0.142">
+    </testcase>
+  </testsuite>
+  <testsuite name="OptionBar" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:07" time="1.403" tests="1">
+    <testcase classname="OptionBar should render self and subcomponents" name="OptionBar should render self and subcomponents" time="0.11">
+    </testcase>
+  </testsuite>
+  <testsuite name="Upload" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:07" time="1.349" tests="1">
+    <testcase classname="Upload should render self and subcomponents" name="Upload should render self and subcomponents" time="0.073">
+    </testcase>
+  </testsuite>
+  <testsuite name="create synchronous actions" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:08" time="1.259" tests="25">
+    <testcase classname="create synchronous actions should create an action to receive lookups" name="create synchronous actions should create an action to receive lookups" time="0.003">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to set show result" name="create synchronous actions should create an action to set show result" time="0.001">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to set date" name="create synchronous actions should create an action to set date" time="0">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to select request type" name="create synchronous actions should create an action to select request type" time="0.001">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to unselect request type" name="create synchronous actions should create an action to unselect request type" time="0">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to select all request types" name="create synchronous actions should create an action to select all request types" time="0">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to unselect all request types" name="create synchronous actions should create an action to unselect all request types" time="0.001">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to set skip presentation levels" name="create synchronous actions should create an action to set skip presentation levels" time="0">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to set ship only using low stock quantities bool" name="create synchronous actions should create an action to set ship only using low stock quantities bool" time="0">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to set gray overlay display" name="create synchronous actions should create an action to set gray overlay display" time="0.001">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to set collapse state" name="create synchronous actions should create an action to set collapse state" time="0">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to collapse all states" name="create synchronous actions should create an action to collapse all states" time="0">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to set store search input" name="create synchronous actions should create an action to set store search input" time="0.001">
+    </testcase>
+    <testcase classname="create synchronous actions should create an action to reset" name="create synchronous actions should create an action to reset" time="0">
+    </testcase>
+    <testcase classname="create async actions should create an action to set order series name" name="create async actions should create an action to set order series name" time="0.001">
+    </testcase>
+    <testcase classname="create async actions should create an action to set replenishment type" name="create async actions should create an action to set replenishment type" time="0.001">
+    </testcase>
+    <testcase classname="create async actions should create an action to set origin location" name="create async actions should create an action to set origin location" time="0">
+    </testcase>
+    <testcase classname="create async actions should create an action to select all origin locations" name="create async actions should create an action to select all origin locations" time="0.001">
+    </testcase>
+    <testcase classname="create async actions should create an action to un select all origin locations" name="create async actions should create an action to un select all origin locations" time="0">
+    </testcase>
+    <testcase classname="create async actions should create an action to select a state" name="create async actions should create an action to select a state" time="0">
+    </testcase>
+    <testcase classname="create async actions should create an action to unselect a state" name="create async actions should create an action to unselect a state" time="0.001">
+    </testcase>
+    <testcase classname="create async actions should create an action to select a store" name="create async actions should create an action to select a store" time="0">
+    </testcase>
+    <testcase classname="create async actions should create an action to select all stores" name="create async actions should create an action to select all stores" time="0">
+    </testcase>
+    <testcase classname="create async actions should create an action to unselect all stores" name="create async actions should create an action to unselect all stores" time="0.001">
+    </testcase>
+    <testcase classname="create async actions should create an action to set gray overlay display and provided action" name="create async actions should create an action to set gray overlay display and provided action" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="OptionBar" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:08" time="1.576" tests="1">
+    <testcase classname="OptionBar should render self and subcomponents" name="OptionBar should render self and subcomponents" time="0.117">
+    </testcase>
+  </testsuite>
+  <testsuite name="home option bar synchronous actions" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:10" time="0.564" tests="3">
+    <testcase classname="home option bar synchronous actions should create an action to set is loading in state" name="home option bar synchronous actions should create an action to set is loading in state" time="0.005">
+    </testcase>
+    <testcase classname="home option bar synchronous actions should create an action to set order series selection in state" name="home option bar synchronous actions should create an action to set order series selection in state" time="0">
+    </testcase>
+    <testcase classname="home option bar synchronous actions should create an action to set order series in state from receipt of json" name="home option bar synchronous actions should create an action to set order series in state from receipt of json" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="home grid synchronous actions" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:10" time="0.659" tests="2">
+    <testcase classname="home grid synchronous actions should create an action to set is loading in state" name="home grid synchronous actions should create an action to set is loading in state" time="0.003">
+    </testcase>
+    <testcase classname="home grid synchronous actions should create an action to set order series in state from receipt of json" name="home grid synchronous actions should create an action to set order series in state from receipt of json" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="home grid reducer" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:10" time="0.499" tests="3">
+    <testcase classname="home grid reducer should return the initial state" name="home grid reducer should return the initial state" time="0.002">
+    </testcase>
+    <testcase classname="home grid reducer should handle SET_SHOW_TABLE" name="home grid reducer should handle SET_SHOW_TABLE" time="0.002">
+    </testcase>
+    <testcase classname="home grid reducer should handle RECEIVE_ORDER_SERIES_RESULTS" name="home grid reducer should handle RECEIVE_ORDER_SERIES_RESULTS" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="upload grid synchronous actions" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:10" time="0.598" tests="3">
+    <testcase classname="upload grid synchronous actions should create an action to set is loading in state" name="upload grid synchronous actions should create an action to set is loading in state" time="0.001">
+    </testcase>
+    <testcase classname="upload grid synchronous actions should create an action to set show modal in state" name="upload grid synchronous actions should create an action to set show modal in state" time="0">
+    </testcase>
+    <testcase classname="upload grid synchronous actions should create an action to set file is selected in state" name="upload grid synchronous actions should create an action to set file is selected in state" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="home option bar reducer reducer" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:11" time="0.476" tests="6">
+    <testcase classname="home option bar reducer reducer should return the initial state" name="home option bar reducer reducer should return the initial state" time="0.004">
+    </testcase>
+    <testcase classname="home option bar reducer reducer should handle RECEIVE_LOOKUPS" name="home option bar reducer reducer should handle RECEIVE_LOOKUPS" time="0.004">
+    </testcase>
+    <testcase classname="home option bar reducer reducer should handle SET_NAME" name="home option bar reducer reducer should handle SET_NAME" time="0.004">
+    </testcase>
+    <testcase classname="home option bar reducer reducer should handle SET_REPLENISHMeNt type" name="home option bar reducer reducer should handle SET_REPLENISHMeNt type" time="0.004">
+    </testcase>
+    <testcase classname="home option bar reducer reducer should handle SElect all origin locations" name="home option bar reducer reducer should handle SElect all origin locations" time="0.004">
+    </testcase>
+    <testcase classname="home option bar reducer reducer should handle unSElect all origin locations" name="home option bar reducer reducer should handle unSElect all origin locations" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="home option bar reducer reducer" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:11" time="0.454" tests="4">
+    <testcase classname="home option bar reducer reducer should return the initial state" name="home option bar reducer reducer should return the initial state" time="0.004">
+    </testcase>
+    <testcase classname="home option bar reducer reducer should handle RECEIVE_ORDER_SERIES" name="home option bar reducer reducer should handle RECEIVE_ORDER_SERIES" time="0.003">
+    </testcase>
+    <testcase classname="home option bar reducer reducer should handle SET_Order_SERIES" name="home option bar reducer reducer should handle SET_Order_SERIES" time="0.003">
+    </testcase>
+    <testcase classname="home option bar reducer reducer should handle SET_IS_LOADING" name="home option bar reducer reducer should handle SET_IS_LOADING" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="home grid reducer" errors="0" failures="0" skipped="0" timestamp="2020-02-10T20:50:11" time="0.336" tests="4">
+    <testcase classname="home grid reducer should return the initial state" name="home grid reducer should return the initial state" time="0.001">
+    </testcase>
+    <testcase classname="home grid reducer should handle SET_IS_LOADING" name="home grid reducer should handle SET_IS_LOADING" time="0.001">
+    </testcase>
+    <testcase classname="home grid reducer should handle SET_SHOW_MODAL" name="home grid reducer should handle SET_SHOW_MODAL" time="0.001">
+    </testcase>
+    <testcase classname="home grid reducer should handle SET_IS_FILE_SELECTED" name="home grid reducer should handle SET_IS_FILE_SELECTED" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+.skip-check-mark-icon,
+.ship-check-mark-icon {
+    top: 440px;
+    left: 816px;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+
+.skip-check-mark-icon {
+    top: 438px;
+}
+
+.ship-check-mark-icon {
+    top: 495px;
+}
+
+.forecast-check-mark-icon {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+    right: 189px;
+    top: 171px;
+}
+
+.skip-check-mark-icon:hover,
+.ship-check-mark-icon:hover,
+.forecast-check-mark-icon:hover {
+    cursor: pointer;
+}
+
+.logo-icon {
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.grape-logo {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}

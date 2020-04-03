@@ -1,0 +1,24 @@
+.loading-spinner {
+    position: absolute;
+    top: 390px;
+    left: 42%;
+    width: 17rem !important;
+    height: 17rem !important;
+    z-index: 6;
+}
+
+.spinner-border.loading-spinner.text-primary {    
+    color: var(--button-color-shade) !important;
+}
+
+.loading-text {
+    position: absolute;
+    top: 460px;
+    left: 43%;
+    z-index: 6;
+    color: var(--button-color-shade);
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 230px;
+    text-align: center;
+}

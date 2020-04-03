@@ -1,0 +1,42 @@
+.display-flex {
+    display: flex;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.fixed-bottom {
+    position: fixed !important;
+    bottom: 0px;
+    height: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-color-main);
+  height: 60px;
+  overflow: visible;
+}
+
+.footer {
+  background-color: var(--primary-color-main);
+  height: 20px;
+  width: auto;
+  overflow: hidden;
+  position: relative;
+}

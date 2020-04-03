@@ -1,0 +1,251 @@
+@import './styles/orientation.css';
+@import './styles/containers.css';
+@import './styles/margins.css';
+@import './styles/icons.css';
+@import './styles/navigation.css';
+@import './styles/tableElements.css';
+@import './styles/selects.css';
+@import './styles/titles.css';
+@import './styles/buttons.css';
+@import './styles/specialText.css';
+@import './styles/backgrounds.css';
+@import './styles/loading.css';
+@import './styles/bootstrap.css';
+
+body {
+    overflow: hidden;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.checkbox {
+  float: left;
+  margin-top: 12px;
+}
+
+.big-checkbox {
+  float: right;
+  height: 36px;
+}
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+.styled-checkbox + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: lightgray;
+    border-radius: 5px;
+  }
+
+.styled-checkbox:hover + label:before {
+    background: blue;
+  }
+
+.styled-checkbox:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+.styled-checkbox:checked + label:before {
+    background: blue;
+  }
+
+.styled-checkbox:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+.styled-checkbox:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+.styled-checkbox:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 
+      2px 0 0 white,
+      4px 0 0 white,
+      4px -2px 0 white,
+      4px -4px 0 white,
+      4px -6px 0 white,
+      4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+
+.delete-checkbox:hover + label:before {
+  background: red;
+}
+
+.delete-checkbox:checked + label:before {
+  background: red;
+}
+
+.big-green {
+  position: absolute;
+  opacity: 0;
+}
+
+.big-green + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+.big-green + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 40px;
+    height: 40px;
+    background: lightgray;
+    border-radius: 5px;
+  }
+
+.big-green:hover + label:before {
+    background: green;
+  }
+
+.big-green:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+.big-green:checked + label:before {
+    background: green;
+  }
+
+.big-green:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+.big-green:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+.big-green:checked + label:after {
+    content: '';
+    box-shadow: none;
+  }
+
+.big-blue {
+  position: absolute;
+  opacity: 0;
+}
+
+.big-blue + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+.big-blue + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 40px;
+    height: 40px;
+    background: lightgray;
+    border-radius: 5px;
+  }
+
+.big-blue:hover + label:before {
+    background: blue;
+  }
+
+.big-blue:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+.big-blue:checked + label:before {
+    background: blue;
+  }
+
+.big-blue:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+.big-blue:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+.big-blue:checked + label:after {
+    content: '';
+    box-shadow: none;
+  }
+
+.big-small-checkbox + label:before {
+  width: 37px;
+  height: 37px;
+}
+
+.order-series-select {
+  width: 300px;
+}
+
+.DayPickerInput > input {
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.asterisk {
+  color: red;
+}
+
+#orderingOverlay {
+  position: fixed;
+  top: 108px;
+  left: 950px;
+  width: 1300px;
+  height: 100%;
+  background-color: rgba(200,200,200,0.3);
+  z-index: 11;
+}
+
+.form-element {
+  display: 'flex';
+  padding-top: 15px;
+}
+
+.collapse-sign {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.review-grid-select {
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+}

@@ -1,0 +1,161 @@
+:root {
+    --primary-color-main: #880C00;
+    --tertiary-color-main: #388800;
+
+    --button-color-main: blue;
+    --button-color-shade: darkblue;
+    --button-color-tint: lightblue;
+
+    --delete-color-main: red;
+    --delete-color-shade: darkred;
+    --deltee-color-tint: pink;
+}
+
+.btn.btn-primary {
+    background-color: var(--button-color-main) !important;
+    border-color: var(--button-color-tint) !important;
+    width: 145px;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--button-color-shade) !important;
+}
+
+.btn.btn-primary:disabled {
+    pointer-events: none;
+    background-color: gray !important;
+}
+
+.btn.btn-danger {
+    background-color: var(--primary-color-main) !important;
+    color: white;
+}
+
+.btn.btn-danger:hover {
+    cursor: default;
+}
+
+.btn.btn-danger:disabled {
+    pointer-events: none;
+    background-color: gray;
+    color: white;
+}
+
+.btn.btn-info:hover {
+    background-color: #e9ecef !important;
+}
+
+.btn.btn-info {
+    background-color: white !important;
+    color: var(--primary-button-color) !important;
+    border: 1px solid  lightgray !important;
+}
+
+.btn {
+    font-weight: bold !important;
+    height: 37px;
+}
+
+button.btn.btn-primary.active {
+    z-index: 0 !important;
+}
+
+button.-btn {
+    background-color: var(--yellow) !important;
+    color: black !important;
+    font-weight: bold;
+}
+
+button.-btn:hover {
+    background-color: #d19f08 !important;
+    cursor: pointer;
+}
+
+button.-btn:disabled {
+    background-color: var(--yellow) !important;
+    cursor: not-allowed !important;
+    color: gray !important;
+}
+
+.btn.btn-success {
+    background-color: var(--delete-color-main) !important;
+    border-color: var(--delete-color-tint) !important;
+    width: 118px;
+}
+
+.btn.btn-success:hover {
+    background-color: var(--delete-color-shade) !important;
+}
+
+.btn.btn-success:disabled {
+    pointer-events: none;
+    color: white;
+    background-color: gray !important;
+}
+
+.btn.btn-secondary {
+    background-color: green !important;
+    border-color: lightgreen !important;
+    width: 145px;
+}
+
+.btn.btn-secondary:hover {
+    background-color: darkgreen !important;
+}
+
+.btn.btn-secondary:disabled {
+    pointer-events: none;
+    color: white;
+    background-color: gray !important;
+}
+
+.btn.btn-warning:disabled {
+    pointer-events: none;
+    color: white;
+    background-color: gray !important;
+    border-color: gray;
+}
+
+.main-process-button {
+    background-color: var(--button-color-main) !important;
+    height: 37px;
+    width: 130px;
+}
+
+.main-process-button:hover {
+    background-color: var(--button-color-shade) !important;
+}
+
+.btn.btn-danger,
+.btn.btn-info {
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+.add-store {
+    width: 200px;
+}
+
+.btn.btn-primary.create {
+    width: 300px;
+    margin-left: '20px';
+    margin-right: '20px';
+    margin-bottom: '40px'
+}
+
+.btn.btn-primary.search {
+    width: 200px;
+    margin-left: '20px';
+    margin-right: '20px';
+    margin-bottom: '40px'
+}
+
+.save-button {
+    width: 145px;
+}
+
+.clear-filters {
+    margin-left: 8px;
+    height: 37px;
+    float: left;
+}

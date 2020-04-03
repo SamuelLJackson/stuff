@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TotalWine.OrderSeries.App</id>
+ 	 <authors>TWM</authors>
+    <version>1.0.0</version>
+    <description>OrderSeries React App
+			Source: https://totalwinemore.visualstudio.com/TWM%20Agile%20Projects/_git/TotalWine.OrderSeries.App   
+    </description>
+  </metadata>
+  <files>
+    <file src=".\OrderSeriesApp\**.*" target="OrderSeriesApp" />
+  </files>
+</package>

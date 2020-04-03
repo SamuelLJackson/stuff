@@ -1,0 +1,51 @@
+.css-kj6f9i-menu {
+    z-index: 11 !important;
+}
+
+.multi-select-value {
+    background-color: gray;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    margin-right: 5px;
+    color: black;
+    height: 30px;
+    min-width: 45px;
+}
+
+.multi-select-container {
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.multi-select-x {
+    cursor: pointer;
+    margin-left: 3px;
+    display: none;
+}
+
+.multi-select-x:hover {
+    background-color: gray;
+}
+
+.multi-select-suggestions {
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    display: none;
+}
+
+.multi-select-suggestion {
+    margin-left: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.multi-select-suggestion:hover {
+    background-color: lightgray;
+}

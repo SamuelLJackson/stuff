@@ -1,0 +1,161 @@
+.ReactTable .rt-thead .rt-header {
+    border: none;
+}
+
+.ReactTable {
+    position: static !important;
+    bottom: 20px !important;
+    margin-bottom: 10px;
+    overflow: overlay;
+}
+
+.ReactTable .rt-tbody {
+    padding-bottom: 19px;
+    padding-right: 19px;
+    width: auto !important;
+}
+
+.table-header {
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content,
+.rt-td {
+    color: var(--primary-color-main);
+}
+
+.-headerGroups .rt-tr {
+    background-color: var(--primary-color-main);
+}
+.-headerGroups .rt-th {
+    border-left: 0.01px solid gray !important;
+    border-right: 1px solid black !important;
+}
+
+table tbody td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table tbody th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.ReactTable .rt-thead.-filters,
+.rt-thead {
+    min-width: 0px !important;
+}
+
+.rt-tbody {
+    min-width: 0px !important;
+}
+
+.ReactTable.-striped .rt-tr.-odd {
+    background-color: rgba(0,0,0,0.03);
+}
+
+.ReactTable .-loading.-active {
+    z-index: 5 !important;
+}
+
+div.rt-tr.-odd div.rt-td.frozen,
+.rt-tbody > .rt-tr-group:nth-child(odd) > .rt-tr > .rt-td {
+    background-color: rgba(245,245,245,1);
+}
+
+.ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:last-child div {
+    margin-right: 19px;
+}
+
+.ReactTable .rt-tbody .rt-td {
+    border: 1px solid rgba(0,0,0,0.02);
+}
+
+.or-request-data-grid .rt-tr > .rt-td:nth-child(6),
+.or-request-data-grid .rt-tr > .rt-td:nth-child(8),
+.or-request-data-grid > .rt-table > .rt-thead.-filters {
+    overflow: visible !important;
+}
+
+.or-request-data-grid > .rt-table > .rt-thead.-filters > .rt-tr .rt-th:nth-child(8) {
+    overflow: visible !important;
+}
+  
+.transfer-items-grid .rt-thead .rt-tr .rt-th:last-child .rt-resizable-header-content,
+.transfer-items-grid .rt-thead .rt-tr .rt-th:last-child,
+.transfer-items-grid .rt-table {
+    overflow: visible !important;
+}
+
+.transfer-items-grid .rt-thead.-header {
+    overflow: visible !important;
+}
+
+.review-table > .rt-table .rt-thead.-filters > .rt-tr .rt-th:nth-child(3) {
+    overflow: visible !important;
+}
+
+.date-filter {
+    width: 100%;
+}
+
+.frozen {
+  order: -1;
+  position: relative;
+  left: 0;
+  transition: left 0.2s;
+  z-index: 4;
+}
+
+.wordwrap {
+    white-space: pre-line !important;
+    word-wrap: break-word;
+    font-weight: bold;
+    border: none;
+    text-align: left !important;
+}
+
+/*hide no data element from react-table */
+.rt-noData {
+    visibility: hidden !important;
+}
+/*hide loading text element from react-table */
+.-loading-inner {
+    visibility: hidden !important;
+}
+
+.details-table .rt-tr .rt-td:nth-child(15),
+.details-table .rt-tr .rt-td:nth-child(19) {
+    overflow: visible !important;
+    z-index: 1 !important;
+}
+
+.-frozen > .rt-tr .rt-th:nth-child(8) {
+    overflow: visible;
+}
+
+.cell-selected {
+    font-weight: bold;
+}
+
+.ReactTable .rt-thead.-header,
+.ReactTable .rt-thead.-filters {
+    overflow: hidden;
+}
+
+.order-series-key {
+    cursor: pointer;
+    color: var(--button-color-main);
+    text-decoration: underline;
+}
+
+.order-series-key:hover {
+    color: var(--button-color-shade);
+}
+
+.home-grid .rt-table .rt-tbody {
+    overflow-x: hidden;
+}

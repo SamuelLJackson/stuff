@@ -1,0 +1,68 @@
+# Node.js with React
+# Build a Node.js project that uses React.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+name: $(Date:yyyyMMdd)$(Rev:.r) $(BuildDefinitionName) $(SourceBranchName)
+
+trigger:
+- master
+- 'cat*'
+
+pool: 'PSE-CI'
+
+
+jobs:
+- job: Build
+  displayName: Build Node.JS Application 
+  continueOnError: true
+  workspace:
+    clean: outputs
+
+  steps:
+  - task: PowerShell@2
+    inputs:
+      targetType: 'filePath'
+      filePath: '$(Build.sourcesDirectory)/BuildAutomation/GetBuildVersion.ps1'
+      workingDirectory:  '$(Build.sourcesDirectory)/BuildAutomation'
+      arguments: '-FullBuildNumber "$(Build.BuildNumber)" -SourceBranch "$(Build.SourceBranchName)"'
+    name: SetNugetSpec
+
+  - script: 'echo Branch: $(Build.SourceBranchName) The NugetVerion is: $(SetNugetSpec.NugetVerion) The ArtifactFeed is: $(SetNugetSpec.ArtifactFeed)'
+    name: GetNugetSpec
+
+  - script: |
+      "C:\Program Files\nodejs\npm.cmd" install && "C:\Program Files\nodejs\npm.cmd" run build
+    displayName: 'npm install and build'
+
+  - task: CopyFiles@2
+    inputs:
+      SourceFolder: '$(System.DefaultWorkingDirectory)/build'
+      Contents: '**'
+      TargetFolder: '$(Build.ArtifactStagingDirectory)/OrderSeriesApp'
+      
+  - task: NuGetToolInstaller@1
+    inputs:
+      versionSpec: '4.9.x'
+
+  - task: CopyFiles@2
+    inputs:
+      sourceFolder:  '$(Build.sourcesDirectory)/BuildAutomation'
+      contents: '*.nuspec' 
+      targetFolder: '$(Build.ArtifactStagingDirectory)'
+      overWrite: true
+
+  - task: NuGetCommand@2
+    inputs:
+      command: 'pack'
+      packagesToPack: '$(Build.ArtifactStagingDirectory)/TotalWine.OrderSeries.App.nuspec'
+      versioningScheme: byEnvVar
+      versionEnvVar: SetNugetSpec.NugetVerion
+    name: 'NuGetPack'
+
+  - task: NuGetCommand@2
+    inputs:
+      command: 'push'
+      packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+      nuGetFeedType: 'internal'
+      publishVstsFeed: '$(SetNugetSpec.ArtifactFeed)'
+    name: 'NuGetPush'

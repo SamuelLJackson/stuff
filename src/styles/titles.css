@@ -1,0 +1,17 @@
+.app-title {
+    margin-left: 20px;
+    color: white;
+    margin-top: 5px;
+    font-size: 2.2rem;
+}
+
+.header > h3 {
+    margin-right: 20px;
+}
+
+.modal-title {
+    width: 100% !important;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
